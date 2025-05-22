@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 import { Link as ScrollLink } from 'react-scroll';
@@ -78,16 +77,6 @@ const NavLinks = () => {
         className="text-foreground hover:text-cdb-purple cursor-pointer font-medium"
       >
         Collection
-      </ScrollLink>
-      <ScrollLink
-        to="roadmap"
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
-        className="text-foreground hover:text-cdb-purple cursor-pointer font-medium"
-      >
-        Roadmap
       </ScrollLink>
       <ScrollLink
         to="faq"
