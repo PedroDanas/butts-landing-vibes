@@ -186,11 +186,11 @@ const NFTCard = ({ nft }: { nft: any }) => {
 
   return (
     <Card className="overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-lg hover:shadow-cdb-purple/10 group">
-      <div className="relative aspect-square overflow-hidden">
+      <div className="relative aspect-square overflow-hidden bg-[#a5ffa5]">
         <img 
-          src={`https://source.unsplash.com/random/400x400/?pixel,nft,cartoon,${nft.id}`} 
+          src="/lovable-uploads/4ae412c7-e663-4cd5-a091-92cafa32200a.png" 
           alt={nft.name} 
-          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+          className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110"
         />
         <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-4 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
           <div className="flex justify-between items-center">

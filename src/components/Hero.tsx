@@ -61,10 +61,10 @@ const Hero = () => {
               <motion.div 
                 animate={{ y: [0, -15, 0] }} 
                 transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
-                className="rounded-2xl overflow-hidden shadow-lg shadow-cdb-purple/20"
+                className="rounded-2xl overflow-hidden shadow-lg shadow-cdb-purple/20 bg-[#a5ffa5]"
               >
                 <img 
-                  src="https://source.unsplash.com/random/600x600/?pixel,nft,cartoon" 
+                  src="/lovable-uploads/4ae412c7-e663-4cd5-a091-92cafa32200a.png" 
                   alt="CryptoDickButt NFT" 
                   className="w-full h-auto"
                 />
@@ -72,10 +72,10 @@ const Hero = () => {
               <motion.div 
                 animate={{ y: [0, -15, 0] }} 
                 transition={{ repeat: Infinity, duration: 3, ease: "easeInOut", delay: 0.5 }}
-                className="rounded-2xl overflow-hidden shadow-lg shadow-cdb-teal/20 mt-12"
+                className="rounded-2xl overflow-hidden shadow-lg shadow-cdb-teal/20 mt-12 bg-[#a5ffa5]"
               >
                 <img 
-                  src="https://source.unsplash.com/random/600x600/?pixel,nft,funny" 
+                  src="/lovable-uploads/4ae412c7-e663-4cd5-a091-92cafa32200a.png" 
                   alt="CryptoDickButt NFT" 
                   className="w-full h-auto"
                 />
@@ -83,10 +83,10 @@ const Hero = () => {
               <motion.div 
                 animate={{ y: [0, -15, 0] }} 
                 transition={{ repeat: Infinity, duration: 3.5, ease: "easeInOut", delay: 1 }}
-                className="rounded-2xl overflow-hidden shadow-lg shadow-cdb-green/20"
+                className="rounded-2xl overflow-hidden shadow-lg shadow-cdb-green/20 bg-[#a5ffa5]"
               >
                 <img 
-                  src="https://source.unsplash.com/random/600x600/?pixel,nft,art" 
+                  src="/lovable-uploads/4ae412c7-e663-4cd5-a091-92cafa32200a.png" 
                   alt="CryptoDickButt NFT" 
                   className="w-full h-auto"
                 />
@@ -94,10 +94,10 @@ const Hero = () => {
               <motion.div 
                 animate={{ y: [0, -15, 0] }} 
                 transition={{ repeat: Infinity, duration: 4.5, ease: "easeInOut", delay: 1.5 }}
-                className="rounded-2xl overflow-hidden shadow-lg shadow-cdb-yellow/20 mt-12"
+                className="rounded-2xl overflow-hidden shadow-lg shadow-cdb-yellow/20 mt-12 bg-[#a5ffa5]"
               >
                 <img 
-                  src="https://source.unsplash.com/random/600x600/?pixel,nft,crypto" 
+                  src="/lovable-uploads/4ae412c7-e663-4cd5-a091-92cafa32200a.png" 
                   alt="CryptoDickButt NFT" 
                   className="w-full h-auto"
                 />
