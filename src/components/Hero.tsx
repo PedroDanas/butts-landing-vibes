@@ -57,52 +57,17 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="flex justify-center"
           >
-            <div className="grid grid-cols-2 gap-4 relative max-w-[400px] mx-auto">
-              <motion.div 
-                animate={{ y: [0, -15, 0] }} 
-                transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
-                className="rounded-2xl overflow-hidden shadow-lg shadow-cdb-purple/20 bg-[#a5ffa5]"
-              >
-                <img 
-                  src="/lovable-uploads/4ae412c7-e663-4cd5-a091-92cafa32200a.png" 
-                  alt="CryptoDickButt NFT" 
-                  className="w-full h-auto max-w-[150px] mx-auto"
-                />
-              </motion.div>
-              <motion.div 
-                animate={{ y: [0, -15, 0] }} 
-                transition={{ repeat: Infinity, duration: 3, ease: "easeInOut", delay: 0.5 }}
-                className="rounded-2xl overflow-hidden shadow-lg shadow-cdb-teal/20 mt-12 bg-[#a5ffa5]"
-              >
-                <img 
-                  src="/lovable-uploads/4ae412c7-e663-4cd5-a091-92cafa32200a.png" 
-                  alt="CryptoDickButt NFT" 
-                  className="w-full h-auto max-w-[150px] mx-auto"
-                />
-              </motion.div>
-              <motion.div 
-                animate={{ y: [0, -15, 0] }} 
-                transition={{ repeat: Infinity, duration: 3.5, ease: "easeInOut", delay: 1 }}
-                className="rounded-2xl overflow-hidden shadow-lg shadow-cdb-green/20 bg-[#a5ffa5]"
-              >
-                <img 
-                  src="/lovable-uploads/4ae412c7-e663-4cd5-a091-92cafa32200a.png" 
-                  alt="CryptoDickButt NFT" 
-                  className="w-full h-auto max-w-[150px] mx-auto"
-                />
-              </motion.div>
-              <motion.div 
-                animate={{ y: [0, -15, 0] }} 
-                transition={{ repeat: Infinity, duration: 4.5, ease: "easeInOut", delay: 1.5 }}
-                className="rounded-2xl overflow-hidden shadow-lg shadow-cdb-yellow/20 mt-12 bg-[#a5ffa5]"
-              >
-                <img 
-                  src="/lovable-uploads/4ae412c7-e663-4cd5-a091-92cafa32200a.png" 
-                  alt="CryptoDickButt NFT" 
-                  className="w-full h-auto max-w-[150px] mx-auto"
-                />
-              </motion.div>
-            </div>
+            <motion.div 
+              animate={{ y: [0, -15, 0] }} 
+              transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
+              className="rounded-2xl overflow-hidden shadow-lg shadow-cdb-purple/20 bg-[#a5ffa5] max-w-[250px] aspect-square"
+            >
+              <img 
+                src="/lovable-uploads/4ae412c7-e663-4cd5-a091-92cafa32200a.png" 
+                alt="CryptoDickButt NFT" 
+                className="w-full h-full object-contain p-4"
+              />
+            </motion.div>
           </motion.div>
         </div>
       </div>
