@@ -57,7 +57,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="flex justify-center"
           >
-            <div className="grid grid-cols-2 gap-4 relative">
+            <div className="grid grid-cols-2 gap-4 relative max-w-[400px] mx-auto">
               <motion.div 
                 animate={{ y: [0, -15, 0] }} 
                 transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
@@ -66,7 +66,7 @@ const Hero = () => {
                 <img 
                   src="/lovable-uploads/4ae412c7-e663-4cd5-a091-92cafa32200a.png" 
                   alt="CryptoDickButt NFT" 
-                  className="w-full h-auto"
+                  className="w-full h-auto max-w-[150px] mx-auto"
                 />
               </motion.div>
               <motion.div 
@@ -77,7 +77,7 @@ const Hero = () => {
                 <img 
                   src="/lovable-uploads/4ae412c7-e663-4cd5-a091-92cafa32200a.png" 
                   alt="CryptoDickButt NFT" 
-                  className="w-full h-auto"
+                  className="w-full h-auto max-w-[150px] mx-auto"
                 />
               </motion.div>
               <motion.div 
@@ -88,7 +88,7 @@ const Hero = () => {
                 <img 
                   src="/lovable-uploads/4ae412c7-e663-4cd5-a091-92cafa32200a.png" 
                   alt="CryptoDickButt NFT" 
-                  className="w-full h-auto"
+                  className="w-full h-auto max-w-[150px] mx-auto"
                 />
               </motion.div>
               <motion.div 
@@ -99,7 +99,7 @@ const Hero = () => {
                 <img 
                   src="/lovable-uploads/4ae412c7-e663-4cd5-a091-92cafa32200a.png" 
                   alt="CryptoDickButt NFT" 
-                  className="w-full h-auto"
+                  className="w-full h-auto max-w-[150px] mx-auto"
                 />
               </motion.div>
             </div>
